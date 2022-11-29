@@ -3,6 +3,17 @@
     color: #ffffff;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        width: fit-content;
+    }
+
+    .title_img {
+        width: 400px;
+        height: auto;
+    }
+}
+
 .title {
     text-align: center;
     font-size: 80px;
