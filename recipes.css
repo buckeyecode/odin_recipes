@@ -7,11 +7,19 @@
 @media only screen and (max-width: 600px) {
     body {
         width: fit-content;
+        margin: 0;
     }
 
     .title_img {
         width: 400px;
         height: auto;
+    }
+
+    .title {
+        margin: 0;
+        position: sticky;
+        top: 0;
+        z-index: 999;
     }
 }
 
