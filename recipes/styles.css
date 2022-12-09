@@ -38,6 +38,10 @@ h2 {
     margin: 10px;
 }
 
+ul {
+    list-style: none;
+}
+
 ol {
     list-style: square;
 }
@@ -45,6 +49,7 @@ ol {
 li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 4px;
+    text-decoration: none;
 }
 
 p {
@@ -53,18 +58,14 @@ p {
     margin: 20px 0px 10px 10px;
 }
 
-a:link {
-    text-decoration: none;
+.flex-container {
+    display: flex;
+
 }
 
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
+.flex-item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
